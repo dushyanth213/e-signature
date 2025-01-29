@@ -1,0 +1,11 @@
+.page-wrapper{
+    height: auto;
+    min-height: 100%;
+    position: relative;
+    background: #fff;
+    padding-bottom: 48px;
+    .page-content{
+        display: block;
+        margin: 24px;
+    }
+}

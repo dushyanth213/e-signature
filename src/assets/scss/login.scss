@@ -12,5 +12,54 @@
         align-items: center;
         justify-content: center;
         background-color: #C7E7FF;
+        // background: url('../images/login-bg.png');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        margin: auto;
+        gap: 50px;
+        .image-container{
+            width: 40vw;
+            height: auto;
+        }
+        .login-form-container{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            .form-group{
+                width: 100%;
+            }
+            .login-btn{
+                background-color: #5c25b7;
+                width: fit-content;
+                color: #fff;
+                border-radius: 20px;
+                width: 100px;
+                text-align: center;
+                padding: 4px 16px;
+                border: transparent;
+            }
+            .forget-link{
+                font-size: 12px;
+                text-decoration: underline;
+                color: #000;
+            }
+        }
     }
+}
+
+.form-group{
+    margin-bottom: 16px;
+}
+
+.form-control{
+   border-radius: 20px;
+   border: transparent;
+   height: 38px;
+   box-shadow: 0px 2px 2px #fff;
+   padding: 4px 16px;
+   font-size: 12px;
+   font-family: "Roboto";
 }

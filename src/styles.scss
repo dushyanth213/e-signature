@@ -1,6 +1,10 @@
 @import "./assets/scss/login.scss";
 @import "./assets/scss/page.scss";
 
+@import "@fontsource/roboto"; // Defaults to weight 400
+@import "@fontsource/roboto/400.css"; // Specify weight
+@import "@fontsource/roboto/400-italic.css"; // Specify weight and style
+
 html, body{
     width: 100%;
     height: 100%;
@@ -8,4 +12,5 @@ html, body{
     overflow-y: auto;
     padding: 0px;
     margin: 0px;
+    font-family: "Roboto";
 }
